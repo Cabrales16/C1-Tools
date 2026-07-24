@@ -2,14 +2,20 @@
 <html>
 <head>
   <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <title>Parcelador C1</title>
   <link rel="icon" href="https://cabrales16.github.io/media-content/images/favicon-c1.ico">
   <style>
-    html,body{margin:0;padding:0;height:100%;background:#12172B;}
-    iframe{border:0;width:100%;height:100vh;display:block;}
+    html,body{margin:0;padding:0;height:100%;background:#12172B;overflow:hidden;}
+    iframe{
+      border:0;display:block;
+      width:100%;
+      height:100vh;      /* fallback para navegadores viejos */
+      height:100dvh;      /* alto de viewport dinámico: se ajusta cuando aparece/desaparece la barra de direcciones móvil */
+    }
   </style>
 </head>
 <body>
-  <iframe src="https://script.google.com/macros/s/AKfycbyczxfKR-nsmQ2et4GgLwTwPT68YUkwb4N765M56vh8nZ7HgzxQ5T_lgMtkO2hv8tNvRw/exec"></iframe>
+  <iframe src="TU_URL_DE_WEB_APP_AQUI" allow="clipboard-write"></iframe>
 </body>
 </html>
